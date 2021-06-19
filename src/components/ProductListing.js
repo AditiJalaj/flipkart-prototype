@@ -4,12 +4,17 @@ import EachProduct from './EachProduct';
 
 const ProductListings = () => {
 
-const data=useData()
+    const {data}=useData()
 //this should return after data is fetched
-
+// const [data,setData]=useState()
+// const [id,setId]=useState()
+// const [category,setCategory]=useState()
+// const [img,setImg]=useState()
+// const [title,setTitle]=useState()
+// const [price,setPrice]=useState()
 
  console.log('from PRODUCT',data)
- //data.map((i)=>{console.log('map id',i.id)})
+
 
     if(data===undefined){
         return (<div> 
@@ -22,7 +27,7 @@ const data=useData()
             <div className='productlistings'>
                 product listings
                 <EachProduct/>
-                {data?.map((i)=>{
+                {data.map((i)=>{
                     <EachProduct 
                     id={i.id}
                     category={i.category}
