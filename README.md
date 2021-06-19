@@ -10,6 +10,7 @@ Current Features-
 a . Size(S, M, L, XL)
 b. Brand
 c. Category (Men, Women, etc)
+
 5.Feature to clear all filters.
 
 
