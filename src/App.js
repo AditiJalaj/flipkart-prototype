@@ -7,8 +7,6 @@ function App() {
   return (
     <>
     <h2>Wannabe Flipkart </h2>
-    
-
     <Context>
     <Filter/>
     <ProductListings/>
