@@ -1,13 +1,16 @@
-const EachProduct = ({ id, category, image,price,title
+const EachProduct = ({ id, category, image,price,title,size,brand
 }) => {
-
-
-    console.log('title',title)
-    
     return ( <div className='each' > 
-         am i rendering
+         
         <img src={image} alt={image}/>
         <h2>{title}</h2>
+        <div>
+        <h4>{price}$</h4>
+        <h4>{brand}</h4>
+        {size && size.map((i)=>{return <span> {i} </span>})}
+        
+        </div>
+        
         </div> );
 }
  
