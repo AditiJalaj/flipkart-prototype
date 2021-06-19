@@ -1,17 +1,18 @@
 Flipkart Clone App- ReactJS, Context API, React Custom Hooks
 
+Used Data from https://fakestoreapi.com/
 
 Current Features- 
-Flipkart product listing page.
-Created a JSON file for your products data. 
-Create a feature to sort products from price High-to-Low and Low-to-High.
-Create Filters based on:
-Size(S, M, L, XL)
-Brand
-Category (Men, Women, etc)
-Feature to clear all filters.
+1. Flipkart product listing page.
+2 .Created a JSON file for your products data. 
+3. Created a feature to sort products from price High-to-Low and Low-to-High.
+4. Created Filters based on:
+a . Size(S, M, L, XL)
+b. Brand
+c. Category (Men, Women, etc)
+5.Feature to clear all filters.
 
 
-Future Updates-
+Future Updates- To Add css.
 
 
